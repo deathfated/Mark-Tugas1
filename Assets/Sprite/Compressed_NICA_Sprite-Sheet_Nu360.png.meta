@@ -1,0 +1,2422 @@
+fileFormatVersion: 2
+guid: 2b4d03aabbb96014ca239acb57f83fc2
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Compressed_NICA_Sprite-Sheet_Nu360_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2880
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a96263db703c0c94995475a231458a9d
+      internalID: -69518789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compressed_NICA_Sprite-Sheet_Nu360_1
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 2880
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20238b6be5d57d348b704eb10929a88e
+      internalID: -824594228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compressed_NICA_Sprite-Sheet_Nu360_2
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 2880
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9e7d5569ce7828498965259c55a889a
+      internalID: -1828205065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compressed_NICA_Sprite-Sheet_Nu360_3
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 2880
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e27306261a5fb849a3917600e43724b
+      internalID: -135441161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compressed_NICA_Sprite-Sheet_Nu360_4
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 2880
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4400f2ac98de60649a22b5fed12f7914
+      internalID: 1724123181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compressed_NICA_Sprite-Sheet_Nu360_5
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 2880
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c93856504873ee141ab0d74abb221992
+      internalID: 1855524590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compressed_NICA_Sprite-Sheet_Nu360_6
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 2880
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0729421818bae541a85fd84227a3d62
+      internalID: -335764594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compressed_NICA_Sprite-Sheet_Nu360_7
+      rect:
+        serializedVersion: 2
+        x: 2520
+        y: 2880
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31c56a790d174224abb7c6859d945fc9
+      internalID: -7284716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compressed_NICA_Sprite-Sheet_Nu360_8
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 2880
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b46ae184d4023e44799c86b8b954cb07
+      internalID: 110861106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compressed_NICA_Sprite-Sheet_Nu360_9
+      rect:
+        serializedVersion: 2
+        x: 3240
+        y: 2880
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c62b43b60b039c74d8c857300c9873e0
+      internalID: -1782690595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compressed_NICA_Sprite-Sheet_Nu360_10
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 2880
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0465a4bab52a3a468e3a52694274942
+      internalID: 1189563252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compressed_NICA_Sprite-Sheet_Nu360_11
+      rect:
+        serializedVersion: 2
+        x: 3960
+        y: 2880
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9942ec350e175df4289ef34325a15a30
+      internalID: -1056309803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compressed_NICA_Sprite-Sheet_Nu360_12
+      rect:
+        serializedVersion: 2
+        x: 4320
+        y: 2880
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d59b56aa5c68264595ee139ccaa3700
+      internalID: 1103507706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compressed_NICA_Sprite-Sheet_Nu360_13
+      rect:
+        serializedVersion: 2
+        x: 4680
+        y: 2880
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce54858e959f1b443862641215bddb0b
+      internalID: 679012523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compressed_NICA_Sprite-Sheet_Nu360_14
+      rect:
+        serializedVersion: 2
+        x: 5040
+        y: 2880
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 209212cd38a163b44844fc80fb5b2937
+      internalID: -290183182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compressed_NICA_Sprite-Sheet_Nu360_15
+      rect:
+        serializedVersion: 2
+        x: 5400
+        y: 2880
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76f6028cc7ba6fb49aa1253833006d44
+      internalID: -2042116935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compressed_NICA_Sprite-Sheet_Nu360_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2520
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 835e5158d9013c642968c8fe48d305ac
+      internalID: 1692679795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compressed_NICA_Sprite-Sheet_Nu360_17
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 2520
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43908cbb9b8890f4ea421ffa7f83db0e
+      internalID: -1611547876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compressed_NICA_Sprite-Sheet_Nu360_18
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 2520
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ee0df96795c4d6408fb3238ee0df20f
+      internalID: -162314116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compressed_NICA_Sprite-Sheet_Nu360_19
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 2520
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac5966ba1d2147348abcab54208ad8d9
+      internalID: 281627473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compressed_NICA_Sprite-Sheet_Nu360_20
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 2520
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1f18cd8a5aa2834ca987b70e3158aa3
+      internalID: -226905900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compressed_NICA_Sprite-Sheet_Nu360_21
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 2520
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56abc6be19a8f354fa3d03a21b122133
+      internalID: -1021901982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compressed_NICA_Sprite-Sheet_Nu360_22
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 2520
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c133d142cd7fbad44984b94b5dbf15df
+      internalID: 1787161537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compressed_NICA_Sprite-Sheet_Nu360_23
+      rect:
+        serializedVersion: 2
+        x: 2520
+        y: 2520
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ad6713dce344954dbfa4839e22b18e5
+      internalID: 1514697667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compressed_NICA_Sprite-Sheet_Nu360_24
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 2520
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1688cc4a1ed2d7549a353679c8a3eb3e
+      internalID: 417940797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compressed_NICA_Sprite-Sheet_Nu360_25
+      rect:
+        serializedVersion: 2
+        x: 3240
+        y: 2520
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 287dc98802de0ff4db90acf23f569f48
+      internalID: -320235280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compressed_NICA_Sprite-Sheet_Nu360_26
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 2520
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 072309843bed25640bf5b33400b488f2
+      internalID: 291977899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compressed_NICA_Sprite-Sheet_Nu360_27
+      rect:
+        serializedVersion: 2
+        x: 3960
+        y: 2520
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1fb877eabc60ca4b92ce43575000d5d
+      internalID: -1991192667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compressed_NICA_Sprite-Sheet_Nu360_28
+      rect:
+        serializedVersion: 2
+        x: 4320
+        y: 2520
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6161e1e9fbac83488a436b02220b26d
+      internalID: -1098919667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compressed_NICA_Sprite-Sheet_Nu360_29
+      rect:
+        serializedVersion: 2
+        x: 4680
+        y: 2520
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8104331a69a66d4194a6c87f16eeb3d
+      internalID: 1467180971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compressed_NICA_Sprite-Sheet_Nu360_30
+      rect:
+        serializedVersion: 2
+        x: 5040
+        y: 2520
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac7e1f6de7c188a42a22d6c0abafed37
+      internalID: 1184666220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compressed_NICA_Sprite-Sheet_Nu360_31
+      rect:
+        serializedVersion: 2
+        x: 5400
+        y: 2520
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7a594cb65d21bc4e9c098570486b9fa
+      internalID: 1570796354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compressed_NICA_Sprite-Sheet_Nu360_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2160
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c790f2dc91496743979f47298aaf00d
+      internalID: -1842814150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compressed_NICA_Sprite-Sheet_Nu360_33
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 2160
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ec3977b89f98414e88070641fbca403
+      internalID: -1838518537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compressed_NICA_Sprite-Sheet_Nu360_34
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 2160
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4831aca54ab11545bfec748b1439f00
+      internalID: -2141705429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compressed_NICA_Sprite-Sheet_Nu360_35
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 2160
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c86ceb60439a8c419d3dd9bee76090f
+      internalID: -220647154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compressed_NICA_Sprite-Sheet_Nu360_36
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 2160
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d7c2a05f5a2e074a9eca4796c8d5bb9
+      internalID: 915285033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compressed_NICA_Sprite-Sheet_Nu360_37
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 2160
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 817449f8096363843acfa61095b8d1cd
+      internalID: -846879754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compressed_NICA_Sprite-Sheet_Nu360_38
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 2160
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7296263cab11d7d46b7c788a6b6030af
+      internalID: -1256290423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compressed_NICA_Sprite-Sheet_Nu360_39
+      rect:
+        serializedVersion: 2
+        x: 2520
+        y: 2160
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43d8fe5e9c8e3a341ad6b16243f0b5c0
+      internalID: -763102020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compressed_NICA_Sprite-Sheet_Nu360_40
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 2160
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acaf6178dff60ca4698db571506208fb
+      internalID: 527635940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compressed_NICA_Sprite-Sheet_Nu360_41
+      rect:
+        serializedVersion: 2
+        x: 3240
+        y: 2160
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f15f47afb447d944e84a5ca3366f9003
+      internalID: 667426845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compressed_NICA_Sprite-Sheet_Nu360_42
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 2160
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bc9e76505cfeab4aa6f194809fd284b
+      internalID: -162539953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compressed_NICA_Sprite-Sheet_Nu360_43
+      rect:
+        serializedVersion: 2
+        x: 3960
+        y: 2160
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e55ffed2f931ece45933f27e2da9b102
+      internalID: -1329874558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compressed_NICA_Sprite-Sheet_Nu360_44
+      rect:
+        serializedVersion: 2
+        x: 4320
+        y: 2160
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d126fbab21b6b543b442fc9da24ee36
+      internalID: -911110019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compressed_NICA_Sprite-Sheet_Nu360_45
+      rect:
+        serializedVersion: 2
+        x: 4680
+        y: 2160
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 573784d7b062f8c4aad69e5023b497e6
+      internalID: -597049718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compressed_NICA_Sprite-Sheet_Nu360_46
+      rect:
+        serializedVersion: 2
+        x: 5040
+        y: 2160
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5736679b8471544d8ffa96e7d24585c
+      internalID: -58724951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compressed_NICA_Sprite-Sheet_Nu360_47
+      rect:
+        serializedVersion: 2
+        x: 5400
+        y: 2160
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee28bc52ffc435d4c9652e85804c588c
+      internalID: -1781455427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compressed_NICA_Sprite-Sheet_Nu360_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1800
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5392f9e39f6aa545a345b07be8dd731
+      internalID: -458740765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compressed_NICA_Sprite-Sheet_Nu360_49
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 1800
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bf6e15c918ad4b46ab9ccc0a135ce65
+      internalID: 1167029324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compressed_NICA_Sprite-Sheet_Nu360_50
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 1800
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05a37c6b894d85342b50b019518b9eb0
+      internalID: -29630329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compressed_NICA_Sprite-Sheet_Nu360_51
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 1800
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b07ec87258233da45ba89b2d35a79f0b
+      internalID: -2014698600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compressed_NICA_Sprite-Sheet_Nu360_52
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 1800
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a9e1652fe73181448e83d6cdb01a155
+      internalID: -1391803448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compressed_NICA_Sprite-Sheet_Nu360_53
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 1800
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 393db9ace95733b4f82904fa88715b3b
+      internalID: -125673190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compressed_NICA_Sprite-Sheet_Nu360_54
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 1800
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4d65214116fd2142bde3e8e5fd24e71
+      internalID: -1673136809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compressed_NICA_Sprite-Sheet_Nu360_55
+      rect:
+        serializedVersion: 2
+        x: 2520
+        y: 1800
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2743907bb6554a54ea9e6ee89b806a8c
+      internalID: 735588126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compressed_NICA_Sprite-Sheet_Nu360_56
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 1800
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b0b97d8633696d499e071fc9ace6d9f
+      internalID: 593430797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compressed_NICA_Sprite-Sheet_Nu360_57
+      rect:
+        serializedVersion: 2
+        x: 3240
+        y: 1800
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c897b138fe7b98c48b7a857303c424b7
+      internalID: -1747459565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compressed_NICA_Sprite-Sheet_Nu360_58
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1440
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bfae53d1bdba0a4e9124620b05bf729
+      internalID: -591958771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compressed_NICA_Sprite-Sheet_Nu360_59
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 1440
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39263d311b52ef14d9d19857fe094967
+      internalID: 1185247896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compressed_NICA_Sprite-Sheet_Nu360_60
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 1440
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d54da4f2be79ea545b5e37ddca401130
+      internalID: 1424581055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compressed_NICA_Sprite-Sheet_Nu360_61
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 1440
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d31140113479ca4d8c0b6e3fe19d489
+      internalID: 1433065608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compressed_NICA_Sprite-Sheet_Nu360_62
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 1440
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6aca803845503347b8fd2e64c10dfc1
+      internalID: 788936124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compressed_NICA_Sprite-Sheet_Nu360_63
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 1440
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 828c3bd40985492419402754d8afd0fc
+      internalID: -2111231464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compressed_NICA_Sprite-Sheet_Nu360_64
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 1440
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d68d8dbe9eeb28b4da58b309579b7ae4
+      internalID: -666561124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compressed_NICA_Sprite-Sheet_Nu360_65
+      rect:
+        serializedVersion: 2
+        x: 2520
+        y: 1440
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40359998cb2bc954ba3cf8116c02e667
+      internalID: -1848089311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compressed_NICA_Sprite-Sheet_Nu360_66
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 1440
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 952377641d33c7245a266ee5e83332aa
+      internalID: 1236365539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compressed_NICA_Sprite-Sheet_Nu360_67
+      rect:
+        serializedVersion: 2
+        x: 3240
+        y: 1440
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d9477b3a2b02384e92b0e2e13da9d37
+      internalID: 739247799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compressed_NICA_Sprite-Sheet_Nu360_68
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1080
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e43408a8ea5cf14b965bcd3a3afce7d
+      internalID: -1198778654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compressed_NICA_Sprite-Sheet_Nu360_69
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 1080
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5326e650860862b4e97fef2c49eb20eb
+      internalID: -206572597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compressed_NICA_Sprite-Sheet_Nu360_70
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 1080
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84a5eab246ba6eb42bfbd36508e8a08c
+      internalID: 162418838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compressed_NICA_Sprite-Sheet_Nu360_71
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 1080
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cc3796065750c740bbfca2c44d20e6a
+      internalID: 1476166543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compressed_NICA_Sprite-Sheet_Nu360_72
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 1080
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85726e9f66d7c8444a0f66166bfe5356
+      internalID: -1998149876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compressed_NICA_Sprite-Sheet_Nu360_73
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 1080
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a63d8e8fa6645a94581278d93a763913
+      internalID: -730160086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compressed_NICA_Sprite-Sheet_Nu360_74
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 1080
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 109904045be37b44ab8a93f4d2a7c66f
+      internalID: -276242473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compressed_NICA_Sprite-Sheet_Nu360_75
+      rect:
+        serializedVersion: 2
+        x: 2520
+        y: 1080
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48b949eb1a142f4438d4250d01e99830
+      internalID: -1593605894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compressed_NICA_Sprite-Sheet_Nu360_76
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 1080
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ca4274198f5b484195e8ae02bfe17a5
+      internalID: 1656111590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compressed_NICA_Sprite-Sheet_Nu360_77
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 720
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4617b442f004ee84fb5dcf2cb51db5db
+      internalID: -1338512965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compressed_NICA_Sprite-Sheet_Nu360_78
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 720
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38136ce4c106b7a418b9805e4d2cef30
+      internalID: 484336434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compressed_NICA_Sprite-Sheet_Nu360_79
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 720
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f732ea0fe9fe7934887af1b4439d0af6
+      internalID: -1304542407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compressed_NICA_Sprite-Sheet_Nu360_80
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 720
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2582813855ea7764e92f13b0271862bf
+      internalID: -1795991173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compressed_NICA_Sprite-Sheet_Nu360_81
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 720
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68a8225242d432e4286c486246cd775e
+      internalID: -69060476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compressed_NICA_Sprite-Sheet_Nu360_82
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 720
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9567cd2922181f147a5a06078c6878e6
+      internalID: 1192845284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compressed_NICA_Sprite-Sheet_Nu360_83
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 720
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd53334c2c783684c821ca5845b1f2b1
+      internalID: -885059517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compressed_NICA_Sprite-Sheet_Nu360_84
+      rect:
+        serializedVersion: 2
+        x: 2520
+        y: 720
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6beb671d2a5c9ef41a5a0f763593e7f1
+      internalID: -1512694982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compressed_NICA_Sprite-Sheet_Nu360_85
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 720
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f353cc029339a6a4cb416255d33740b6
+      internalID: -1873952101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compressed_NICA_Sprite-Sheet_Nu360_86
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 360
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c14e423a72a0bb04ab2e82bd71cebb0e
+      internalID: 1313536742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compressed_NICA_Sprite-Sheet_Nu360_87
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 360
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd39fc83cf0a036428e19ac96008c40f
+      internalID: 479340743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compressed_NICA_Sprite-Sheet_Nu360_88
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 360
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad710b32cd2834847bbbb823292020d8
+      internalID: 1992663775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compressed_NICA_Sprite-Sheet_Nu360_89
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 360
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 891b611ce5819854c84c1175db6bfb72
+      internalID: 2095018503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compressed_NICA_Sprite-Sheet_Nu360_90
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 360
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5c44a586642bd441b957f6e9e8e6c5e
+      internalID: 10395198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compressed_NICA_Sprite-Sheet_Nu360_91
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 360
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d3a9734abdf78f41a3b9408ad553c8e
+      internalID: 1396620541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compressed_NICA_Sprite-Sheet_Nu360_92
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 360
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7530441899cd6134990e62f0fec3c6f2
+      internalID: 1768035672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compressed_NICA_Sprite-Sheet_Nu360_93
+      rect:
+        serializedVersion: 2
+        x: 2520
+        y: 360
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e50db36169ca054aa19c8f11a6119df
+      internalID: -354762475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compressed_NICA_Sprite-Sheet_Nu360_94
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 360
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55bb2dbbd1e976a45a9a3ff2fe33617f
+      internalID: 2090679498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compressed_NICA_Sprite-Sheet_Nu360_95
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcb9b09869085e642a7a2240c937b89c
+      internalID: 4307303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compressed_NICA_Sprite-Sheet_Nu360_96
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 0
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9067267cb1e36144aacb9ebce068a6c3
+      internalID: 943730562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compressed_NICA_Sprite-Sheet_Nu360_97
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 0
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a62e2103c8f2fc46a0a37df220b235d
+      internalID: 957608786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compressed_NICA_Sprite-Sheet_Nu360_98
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 0
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05b652bba7c574141bcc25e715fd0fd3
+      internalID: -937275034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compressed_NICA_Sprite-Sheet_Nu360_99
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 0
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 583082d7b04add54d932a5e06b09fdca
+      internalID: -929112091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compressed_NICA_Sprite-Sheet_Nu360_100
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 0
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cab515d399a3c614b8928b699dfabf6e
+      internalID: -1080754117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compressed_NICA_Sprite-Sheet_Nu360_101
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 0
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7d0464b42667d745942d5adab1e4afc
+      internalID: 1255890936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compressed_NICA_Sprite-Sheet_Nu360_102
+      rect:
+        serializedVersion: 2
+        x: 2520
+        y: 0
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1997441972543a14a9052955d017e690
+      internalID: 912507909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Compressed_NICA_Sprite-Sheet_Nu360_103
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 0
+        width: 360
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c85f5efb033a3a4ca8e73258e6c7a8d
+      internalID: -1995402120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Compressed_NICA_Sprite-Sheet_Nu360_54: -1673136809
+      Compressed_NICA_Sprite-Sheet_Nu360_25: -320235280
+      Compressed_NICA_Sprite-Sheet_Nu360_4: 1724123181
+      Compressed_NICA_Sprite-Sheet_Nu360_30: 1184666220
+      Compressed_NICA_Sprite-Sheet_Nu360_50: -29630329
+      Compressed_NICA_Sprite-Sheet_Nu360_52: -1391803448
+      Compressed_NICA_Sprite-Sheet_Nu360_98: -937275034
+      Compressed_NICA_Sprite-Sheet_Nu360_34: -2141705429
+      Compressed_NICA_Sprite-Sheet_Nu360_6: -335764594
+      Compressed_NICA_Sprite-Sheet_Nu360_71: 1476166543
+      Compressed_NICA_Sprite-Sheet_Nu360_94: 2090679498
+      Compressed_NICA_Sprite-Sheet_Nu360_86: 1313536742
+      Compressed_NICA_Sprite-Sheet_Nu360_62: 788936124
+      Compressed_NICA_Sprite-Sheet_Nu360_49: 1167029324
+      Compressed_NICA_Sprite-Sheet_Nu360_22: 1787161537
+      Compressed_NICA_Sprite-Sheet_Nu360_29: 1467180971
+      Compressed_NICA_Sprite-Sheet_Nu360_67: 739247799
+      Compressed_NICA_Sprite-Sheet_Nu360_61: 1433065608
+      Compressed_NICA_Sprite-Sheet_Nu360_16: 1692679795
+      Compressed_NICA_Sprite-Sheet_Nu360_27: -1991192667
+      Compressed_NICA_Sprite-Sheet_Nu360_88: 1992663775
+      Compressed_NICA_Sprite-Sheet_Nu360_24: 417940797
+      Compressed_NICA_Sprite-Sheet_Nu360_102: 912507909
+      Compressed_NICA_Sprite-Sheet_Nu360_63: -2111231464
+      Compressed_NICA_Sprite-Sheet_Nu360_44: -911110019
+      Compressed_NICA_Sprite-Sheet_Nu360_18: -162314116
+      Compressed_NICA_Sprite-Sheet_Nu360_77: -1338512965
+      Compressed_NICA_Sprite-Sheet_Nu360_55: 735588126
+      Compressed_NICA_Sprite-Sheet_Nu360_42: -162539953
+      Compressed_NICA_Sprite-Sheet_Nu360_19: 281627473
+      Compressed_NICA_Sprite-Sheet_Nu360_51: -2014698600
+      Compressed_NICA_Sprite-Sheet_Nu360_53: -125673190
+      Compressed_NICA_Sprite-Sheet_Nu360_72: -1998149876
+      Compressed_NICA_Sprite-Sheet_Nu360_38: -1256290423
+      Compressed_NICA_Sprite-Sheet_Nu360_39: -763102020
+      Compressed_NICA_Sprite-Sheet_Nu360_95: 4307303
+      Compressed_NICA_Sprite-Sheet_Nu360_96: 943730562
+      Compressed_NICA_Sprite-Sheet_Nu360_97: 957608786
+      Compressed_NICA_Sprite-Sheet_Nu360_66: 1236365539
+      Compressed_NICA_Sprite-Sheet_Nu360_64: -666561124
+      Compressed_NICA_Sprite-Sheet_Nu360_99: -929112091
+      Compressed_NICA_Sprite-Sheet_Nu360_79: -1304542407
+      Compressed_NICA_Sprite-Sheet_Nu360_89: 2095018503
+      Compressed_NICA_Sprite-Sheet_Nu360_84: -1512694982
+      Compressed_NICA_Sprite-Sheet_Nu360_75: -1593605894
+      Compressed_NICA_Sprite-Sheet_Nu360_57: -1747459565
+      Compressed_NICA_Sprite-Sheet_Nu360_80: -1795991173
+      Compressed_NICA_Sprite-Sheet_Nu360_59: 1185247896
+      Compressed_NICA_Sprite-Sheet_Nu360_103: -1995402120
+      Compressed_NICA_Sprite-Sheet_Nu360_91: 1396620541
+      Compressed_NICA_Sprite-Sheet_Nu360_13: 679012523
+      Compressed_NICA_Sprite-Sheet_Nu360_14: -290183182
+      Compressed_NICA_Sprite-Sheet_Nu360_20: -226905900
+      Compressed_NICA_Sprite-Sheet_Nu360_73: -730160086
+      Compressed_NICA_Sprite-Sheet_Nu360_90: 10395198
+      Compressed_NICA_Sprite-Sheet_Nu360_21: -1021901982
+      Compressed_NICA_Sprite-Sheet_Nu360_7: -7284716
+      Compressed_NICA_Sprite-Sheet_Nu360_46: -58724951
+      Compressed_NICA_Sprite-Sheet_Nu360_45: -597049718
+      Compressed_NICA_Sprite-Sheet_Nu360_2: -1828205065
+      Compressed_NICA_Sprite-Sheet_Nu360_36: 915285033
+      Compressed_NICA_Sprite-Sheet_Nu360_15: -2042116935
+      Compressed_NICA_Sprite-Sheet_Nu360_78: 484336434
+      Compressed_NICA_Sprite-Sheet_Nu360_0: -69518789
+      Compressed_NICA_Sprite-Sheet_Nu360_85: -1873952101
+      Compressed_NICA_Sprite-Sheet_Nu360_58: -591958771
+      Compressed_NICA_Sprite-Sheet_Nu360_9: -1782690595
+      Compressed_NICA_Sprite-Sheet_Nu360_11: -1056309803
+      Compressed_NICA_Sprite-Sheet_Nu360_37: -846879754
+      Compressed_NICA_Sprite-Sheet_Nu360_12: 1103507706
+      Compressed_NICA_Sprite-Sheet_Nu360_48: -458740765
+      Compressed_NICA_Sprite-Sheet_Nu360_87: 479340743
+      Compressed_NICA_Sprite-Sheet_Nu360_74: -276242473
+      Compressed_NICA_Sprite-Sheet_Nu360_92: 1768035672
+      Compressed_NICA_Sprite-Sheet_Nu360_31: 1570796354
+      Compressed_NICA_Sprite-Sheet_Nu360_68: -1198778654
+      Compressed_NICA_Sprite-Sheet_Nu360_81: -69060476
+      Compressed_NICA_Sprite-Sheet_Nu360_33: -1838518537
+      Compressed_NICA_Sprite-Sheet_Nu360_28: -1098919667
+      Compressed_NICA_Sprite-Sheet_Nu360_43: -1329874558
+      Compressed_NICA_Sprite-Sheet_Nu360_82: 1192845284
+      Compressed_NICA_Sprite-Sheet_Nu360_70: 162418838
+      Compressed_NICA_Sprite-Sheet_Nu360_3: -135441161
+      Compressed_NICA_Sprite-Sheet_Nu360_26: 291977899
+      Compressed_NICA_Sprite-Sheet_Nu360_35: -220647154
+      Compressed_NICA_Sprite-Sheet_Nu360_40: 527635940
+      Compressed_NICA_Sprite-Sheet_Nu360_69: -206572597
+      Compressed_NICA_Sprite-Sheet_Nu360_41: 667426845
+      Compressed_NICA_Sprite-Sheet_Nu360_65: -1848089311
+      Compressed_NICA_Sprite-Sheet_Nu360_47: -1781455427
+      Compressed_NICA_Sprite-Sheet_Nu360_60: 1424581055
+      Compressed_NICA_Sprite-Sheet_Nu360_10: 1189563252
+      Compressed_NICA_Sprite-Sheet_Nu360_56: 593430797
+      Compressed_NICA_Sprite-Sheet_Nu360_100: -1080754117
+      Compressed_NICA_Sprite-Sheet_Nu360_83: -885059517
+      Compressed_NICA_Sprite-Sheet_Nu360_8: 110861106
+      Compressed_NICA_Sprite-Sheet_Nu360_93: -354762475
+      Compressed_NICA_Sprite-Sheet_Nu360_5: 1855524590
+      Compressed_NICA_Sprite-Sheet_Nu360_101: 1255890936
+      Compressed_NICA_Sprite-Sheet_Nu360_76: 1656111590
+      Compressed_NICA_Sprite-Sheet_Nu360_32: -1842814150
+      Compressed_NICA_Sprite-Sheet_Nu360_23: 1514697667
+      Compressed_NICA_Sprite-Sheet_Nu360_1: -824594228
+      Compressed_NICA_Sprite-Sheet_Nu360_17: -1611547876
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
