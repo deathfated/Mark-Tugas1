@@ -88,6 +88,9 @@ public class LevelMan : MonoBehaviour
     {
         _currentLives = Mathf.Max(currentLives, 0);
         _lives.text = $"{_currentLives}";
+
+        HealthMan script = GameObject.FindObjectOfType<HealthMan>();
+        script.ChangeHealth(_currentLives);
     }
 
     private void Update()
@@ -245,17 +248,18 @@ public class LevelMan : MonoBehaviour
             newEnemy.transform.position = _spawnArea.transform.position;
 
             newEnemy.gameObject.SetActive(true);
-        }*/
+        }
 
         //this func can remove later:
     public void SetTotalEnemy(int totalEnemy)
     {
         _enemyCounter = totalEnemy;
-    }
+    }*/
 
     public void ReduceLives(int value)
     {
         SetCurrentLives(_currentLives - value);
+
         if (_currentLives <= 0)
         {
             SetGameOver(false);
@@ -266,7 +270,6 @@ public class LevelMan : MonoBehaviour
     {
         IsOver = true;
 
-        //_statusInfo.text = isWin ? "You Win!" : "You Lose!";
          _goPanel.gameObject.SetActive(true);
     }
 }
