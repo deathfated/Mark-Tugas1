@@ -4,13 +4,12 @@ using UnityEngine;
 
 public class EnemyContoller : MonoBehaviour
 {
-    public int Health = 1;
-    public float MoveSpeed = 0.5f;
+    [SerializeField] private int Health = 1;
+    [SerializeField] private bool isEnemy = true;
+    [SerializeField] private float MoveSpeed = 0.5f;
 
     private int _currentHealth;
-    public Vector2 resetPosition;
-
-    public bool isEnemy = true;
+    private Vector2 resetPosition;
 
     private void OnEnable()
     {

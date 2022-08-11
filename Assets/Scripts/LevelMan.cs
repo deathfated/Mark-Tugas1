@@ -5,6 +5,9 @@ using UnityEngine.UI;
 
 public class LevelMan : MonoBehaviour
 {
+    public delegate void GameOver();
+    public static event GameOver OnGameOver;
+    
     [SerializeField] private int _maxLives = 3;
     //[SerializeField] private int _totalEnemy = 15;
     //[SerializeField] private float _spawnDelay = 5f;
@@ -19,48 +22,49 @@ public class LevelMan : MonoBehaviour
     //private List<EnemyContoller> _spawnedEnemies = new List<EnemyContoller>();
 
     private int _currentLives;
-    private int _enemyCounter;
-    private float _runningSpawnDelay;
-    private float _timer;
+    //private int _enemyCounter;
+    //private float _runningSpawnDelay;
 
-    public bool SpawnComplete;
-    public bool Spawn1Complete;
-    public bool Spawn2Complete;
-    public bool Spawn3Complete;
-    public bool Spawn4Complete;
-    public bool Spawn5Complete;
-    public bool Spawn6Complete;
-    public bool Spawn7Complete;
-    public bool Spawn8Complete;
-    public bool SpawnVComplete;
-    public bool SpawnV1Complete;
-    public bool SpawnV2Complete;
+    //private float _timer;
 
-    public GameObject E;
-    public GameObject E1;
-    public GameObject E2;
-    public GameObject E3;
-    public GameObject E4;
-    public GameObject E5;
-    public GameObject E6;
-    public GameObject E7;
-    public GameObject E8;
-    public GameObject V;
-    public GameObject V1;
-    public GameObject V2;
+    [SerializeField] private bool SpawnComplete;
+    [SerializeField] private bool Spawn1Complete;
+    [SerializeField] private bool Spawn2Complete;
+    [SerializeField] private bool Spawn3Complete;
+    [SerializeField] private bool Spawn4Complete;
+    [SerializeField] private bool Spawn5Complete;
+    [SerializeField] private bool Spawn6Complete;
+    [SerializeField] private bool Spawn7Complete;
+    [SerializeField] private bool Spawn8Complete;
+    [SerializeField] private bool SpawnVComplete;
+    [SerializeField] private bool SpawnV1Complete;
+    [SerializeField] private bool SpawnV2Complete;
 
-    public int ESpawn;
-    public int E1Spawn;
-    public int E2Spawn;
-    public int E3Spawn;
-    public int E4Spawn;
-    public int E5Spawn;
-    public int E6Spawn;
-    public int E7Spawn;
-    public int E8Spawn;
-    public int VSpawn;
-    public int V1Spawn;
-    public int V2Spawn;
+    [SerializeField] private GameObject E;
+    [SerializeField] private GameObject E1;
+    [SerializeField] private GameObject E2;
+    [SerializeField] private GameObject E3;
+    [SerializeField] private GameObject E4;
+    [SerializeField] private GameObject E5;
+    [SerializeField] private GameObject E6;
+    [SerializeField] private GameObject E7;
+    [SerializeField] private GameObject E8;
+    [SerializeField] private GameObject V;
+    [SerializeField] private GameObject V1;
+    [SerializeField] private GameObject V2;
+
+    [SerializeField] private int ESpawn;
+    [SerializeField] private int E1Spawn;
+    [SerializeField] private int E2Spawn;
+    [SerializeField] private int E3Spawn;
+    [SerializeField] private int E4Spawn;
+    [SerializeField] private int E5Spawn;
+    [SerializeField] private int E6Spawn;
+    [SerializeField] private int E7Spawn;
+    [SerializeField] private int E8Spawn;
+    [SerializeField] private int VSpawn;
+    [SerializeField] private int V1Spawn;
+    [SerializeField] private int V2Spawn;
 
 
     public bool IsOver { get; private set; }
@@ -84,7 +88,7 @@ public class LevelMan : MonoBehaviour
         SetCurrentLives(_maxLives);
     }
 
-    public void SetCurrentLives(int currentLives)
+    private void SetCurrentLives(int currentLives)
     {
         _currentLives = Mathf.Max(currentLives, 0);
         _lives.text = $"{_currentLives}";
@@ -111,9 +115,12 @@ public class LevelMan : MonoBehaviour
             }
         }*/
 
-        _timer += Time.deltaTime;
 
-        if (_timer >= ESpawn && Spawn1Complete == false)
+
+
+        /*_timer += Time.deltaTime;
+
+        if (_timer >= ESpawn && SpawnComplete == false)
         {
             if (E.activeSelf == true)
             {
@@ -122,7 +129,7 @@ public class LevelMan : MonoBehaviour
             E.SetActive(!E.activeInHierarchy);
             SpawnComplete = true;
         }
-        if (_timer >= E1Spawn && Spawn2Complete == false)
+        if (_timer >= E1Spawn && Spawn1Complete == false)
         {
             if (E1.activeSelf == true)
             {
@@ -131,7 +138,7 @@ public class LevelMan : MonoBehaviour
             E1.SetActive(!E1.activeInHierarchy);
             Spawn1Complete = true;
         }
-        if (_timer >= E2Spawn && Spawn3Complete == false)
+        if (_timer >= E2Spawn && Spawn2Complete == false)
         {
             if (E2.activeSelf == true)
             {
@@ -140,7 +147,7 @@ public class LevelMan : MonoBehaviour
             E2.SetActive(!E2.activeInHierarchy);
             Spawn2Complete = true;
         }
-        if (_timer >= E3Spawn && Spawn4Complete == false)
+        if (_timer >= E3Spawn && Spawn3Complete == false)
         {
             if (E3.activeSelf == true)
             {
@@ -149,7 +156,7 @@ public class LevelMan : MonoBehaviour
             E3.SetActive(!E3.activeInHierarchy);
             Spawn3Complete = true;
         }
-        if (_timer >= E4Spawn && Spawn5Complete == false)
+        if (_timer >= E4Spawn && Spawn4Complete == false)
         {
             if (E4.activeSelf == true)
             {
@@ -158,7 +165,7 @@ public class LevelMan : MonoBehaviour
             E4.SetActive(!E4.activeInHierarchy);
             Spawn4Complete = true;
         }
-        if (_timer >= E5Spawn && Spawn3Complete == false)
+        if (_timer >= E5Spawn && Spawn5Complete == false)
         {
             if (E5.activeSelf == true)
             {
@@ -167,7 +174,7 @@ public class LevelMan : MonoBehaviour
             E5.SetActive(!E5.activeInHierarchy);
             Spawn5Complete = true;
         }
-        if (_timer >= E6Spawn && Spawn4Complete == false)
+        if (_timer >= E6Spawn && Spawn6Complete == false)
         {
             if (E6.activeSelf == true)
             {
@@ -176,7 +183,7 @@ public class LevelMan : MonoBehaviour
             E6.SetActive(!E6.activeInHierarchy);
             Spawn6Complete = true;
         }
-        if (_timer >= E7Spawn && Spawn5Complete == false)
+        if (_timer >= E7Spawn && Spawn7Complete == false)
         {
             if (E7.activeSelf == true)
             {
@@ -185,7 +192,7 @@ public class LevelMan : MonoBehaviour
             E7.SetActive(!E7.activeInHierarchy);
             Spawn7Complete = true;
         }
-        if (_timer >= E8Spawn && Spawn5Complete == false)
+        if (_timer >= E8Spawn && Spawn8Complete == false)
         {
             if (E8.activeSelf == true)
             {
@@ -194,35 +201,38 @@ public class LevelMan : MonoBehaviour
             E8.SetActive(!E8.activeInHierarchy);
             Spawn8Complete = true;
         }
-        if (_timer >= VSpawn && Spawn5Complete == false)
+        if (_timer >= VSpawn && SpawnVComplete == false)
         {
             if (V.activeSelf == true)
             {
                 return;
             }
             V.SetActive(!V.activeInHierarchy);
-            Spawn5Complete = true;
+            SpawnVComplete = true;
         }
-        if (_timer >= V1Spawn && Spawn5Complete == false)
+        if (_timer >= V1Spawn && SpawnV1Complete == false)
         {
             if (V1.activeSelf == true)
             {
                 return;
             }
             V1.SetActive(!V1.activeInHierarchy);
-            Spawn5Complete = true;
+            SpawnV1Complete = true;
         }
-        if (_timer >= V2Spawn && Spawn5Complete == false)
+        if (_timer >= V2Spawn && SpawnV2Complete == false)
         {
             if (V2.activeSelf == true)
             {
                 return;
             }
             V2.SetActive(!V2.activeInHierarchy);
-            Spawn5Complete = true;
+            SpawnV2Complete = true;
         }
-
+        */
     }
+
+
+
         /*private void SpawnEnemy()
         {
             SetTotalEnemy(--_enemyCounter);
@@ -262,15 +272,16 @@ public class LevelMan : MonoBehaviour
 
         if (_currentLives <= 0)
         {
-            SetGameOver(false);
+            SetGameOver();
         }
     }
 
-    public void SetGameOver(bool isWin)
+    private void SetGameOver()
     {
         IsOver = true;
+        OnGameOver();
 
-         _goPanel.gameObject.SetActive(true);
+         _goPanel.SetActive(true);
     }
 }
 

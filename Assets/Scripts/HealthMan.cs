@@ -17,47 +17,32 @@ public class HealthMan : MonoBehaviour
         {
 
             case 5:
-                h1.gameObject.SetActive(true);
-                h2.gameObject.SetActive(true);
-                h3.gameObject.SetActive(true);
-                h4.gameObject.SetActive(true);
-                h5.gameObject.SetActive(true);
                 break;
             case 4:
-                h1.gameObject.SetActive(true);
-                h2.gameObject.SetActive(true);
-                h3.gameObject.SetActive(true);
-                h4.gameObject.SetActive(true);
-                h5.gameObject.SetActive(false);
+                h5.SetActive(false);
                 break;
             case 3:
-                h1.gameObject.SetActive(true);
-                h2.gameObject.SetActive(true);
-                h3.gameObject.SetActive(true);
-                h4.gameObject.SetActive(false);
-                h5.gameObject.SetActive(false);
+
+                h4.SetActive(false);
+                h5.SetActive(false);
                 break;
             case 2:
-                h1.gameObject.SetActive(true);
-                h2.gameObject.SetActive(true);
-                h3.gameObject.SetActive(false);
-                h4.gameObject.SetActive(false);
-                h5.gameObject.SetActive(false);
+                h3.SetActive(false);
+                h4.SetActive(false);
+                h5.SetActive(false);
                 break;
             case 1:
-                h1.gameObject.SetActive(true);
-                h2.gameObject.SetActive(false);
-                h3.gameObject.SetActive(false);
-                h4.gameObject.SetActive(false);
-                h5.gameObject.SetActive(false);
+                h2.SetActive(false);
+                h3.SetActive(false);
+                h4.SetActive(false);
+                h5.SetActive(false);
                 break;
-
             case 0:
-                h1.gameObject.SetActive(false);
-                h2.gameObject.SetActive(false);
-                h3.gameObject.SetActive(false);
-                h4.gameObject.SetActive(false);
-                h5.gameObject.SetActive(false);
+                h1.SetActive(false);
+                h2.SetActive(false);
+                h3.SetActive(false);
+                h4.SetActive(false);
+                h5.SetActive(false);
                 break;
         }
     }
