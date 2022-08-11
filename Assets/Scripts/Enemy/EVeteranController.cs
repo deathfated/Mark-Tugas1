@@ -22,13 +22,15 @@ namespace Agate.ZombieTapie.Enemy
 
         protected override void Update()
         {
+            CheckBounds();
+            
             OnClicked();
             
             transform.position += MoveSpeed * Time.deltaTime * -transform.up;
 
             _currentShiftDelayR -= Time.unscaledDeltaTime;
 
-            if (_currentShiftDelayR <= 3f)
+            if (_currentShiftDelayR <= 2f)
             {
                 ShiftRight();
                 _currentShiftDelayR = ShiftDelay;
@@ -36,7 +38,7 @@ namespace Agate.ZombieTapie.Enemy
 
             _currentShiftDelayL -= Time.unscaledDeltaTime;
 
-            if (_currentShiftDelayL <= 2f)
+            if (_currentShiftDelayL <= 3f)
             {
                 ShiftLeft();
                 _currentShiftDelayL = ShiftDelay;
@@ -48,14 +50,17 @@ namespace Agate.ZombieTapie.Enemy
             _currentShiftDelayL = ShiftDelay;
             _currentShiftDelayR = ShiftDelay;
         }
+
         private void ShiftRight()
         {
-            transform.position += transform.right * MoveSpeed;
+            //for (int i = 0; i < 5; i++)
+                transform.position += 0.1f * Random.Range(0f, 40f) * transform.right;
         }
 
         private void ShiftLeft()
         {
-            transform.position += -transform.right * MoveSpeed;
+            //for (int i = 0; i < 10; i++)
+                transform.position += 0.1f * Random.Range(0f, 40f) * -transform.right;
         }
 
         public override void OnClicked()

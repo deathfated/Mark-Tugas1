@@ -426,8 +426,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 8a32f58dc4b527f489a181e2fd2a27f7, type: 3}
-  m_Type: 2
+  m_Sprite: {fileID: 21300000, guid: 54205d9ea37b19648b19d190904ac028, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -1399,8 +1399,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 8a32f58dc4b527f489a181e2fd2a27f7, type: 3}
-  m_Type: 2
+  m_Sprite: {fileID: 21300000, guid: 54205d9ea37b19648b19d190904ac028, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -1442,7 +1442,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1335920186043018479, guid: 50f7c5fd8d271034facfc8029acc75b3, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.05
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1335920186043018479, guid: 50f7c5fd8d271034facfc8029acc75b3, type: 3}
       propertyPath: m_LocalPosition.y
@@ -1882,8 +1882,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 8a32f58dc4b527f489a181e2fd2a27f7, type: 3}
-  m_Type: 2
+  m_Sprite: {fileID: 21300000, guid: 54205d9ea37b19648b19d190904ac028, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -2174,8 +2174,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 8a32f58dc4b527f489a181e2fd2a27f7, type: 3}
-  m_Type: 2
+  m_Sprite: {fileID: 21300000, guid: 54205d9ea37b19648b19d190904ac028, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -2447,8 +2447,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 8a32f58dc4b527f489a181e2fd2a27f7, type: 3}
-  m_Type: 2
+  m_Sprite: {fileID: 21300000, guid: 54205d9ea37b19648b19d190904ac028, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -2499,6 +2499,7 @@ MonoBehaviour:
   _goPanel: {fileID: 1241507936}
   _statusInfo: {fileID: 2146454904}
   _lives: {fileID: 138607985}
+  Timer: 0
   SpawnComplete: 0
   Spawn1Complete: 0
   Spawn2Complete: 0

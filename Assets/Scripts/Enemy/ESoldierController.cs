@@ -32,6 +32,8 @@ namespace Agate.ZombieTapie.Enemy
 
         protected override void Update()
         {
+            CheckBounds();
+            
             OnClicked();
 
             transform.position += MoveSpeed * Time.deltaTime * -transform.up;

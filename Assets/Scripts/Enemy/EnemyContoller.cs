@@ -33,22 +33,11 @@ namespace Agate.ZombieTapie.Enemy
             }
         }
 
-        /*protected virtual void CheckBounds()
+        protected virtual void CheckBounds()
         {
-            if(gameObject.transform.position.y <= -5)
-            {
-                OnEnemy();
+            Vector3 pos = Camera.main.WorldToViewportPoint(transform.position);
 
-                gameObject.transform.position = resetPosition;
-                gameObject.SetActive(false);
-
-                Invoke(nameof(Activate), 10.0f);
-            }
-        }*/
-
-        protected virtual void OnTriggerEnter2D(Collider2D other)
-        {
-            if (other.gameObject.name == "Limit")
+            if(pos.y <= 0.0)
             {
                 OnEnemy();
 
@@ -58,23 +47,6 @@ namespace Agate.ZombieTapie.Enemy
                 Invoke(nameof(Activate), 10.0f);
             }
         }
-
-        /*protected virtual void OnTriggerEnter2D(Collider2D other);
-        {
-                if (other.gameObject.name == "Limit")
-                {
-                    if (isEnemy == true)
-                    {
-                        LevelMan script = GameObject.FindObjectOfType<LevelMan>();
-                        script.ReduceLives(1);
-                    }
-
-                    gameObject.transform.position = resetPosition;
-                    gameObject.SetActive(false);
-
-                    Invoke("Activate", 10.0f);
-                }
-        }*/
 
         public abstract void OnEnemy();
         public abstract void OnVillager();
