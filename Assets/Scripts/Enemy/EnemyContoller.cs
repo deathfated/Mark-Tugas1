@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class EnemyContoller : MonoBehaviour
+public abstract class EnemyContoller : MonoBehaviour
 {
     [SerializeField] private int Health = 1;
     [SerializeField] private bool isEnemy = true;
