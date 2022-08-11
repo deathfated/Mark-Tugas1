@@ -25,7 +25,7 @@ public class LevelMan : MonoBehaviour
     //private int _enemyCounter;
     //private float _runningSpawnDelay;
 
-    //private float _timer;
+    public float Timer;
 
     [SerializeField] private bool SpawnComplete;
     [SerializeField] private bool Spawn1Complete;
@@ -118,9 +118,9 @@ public class LevelMan : MonoBehaviour
 
 
 
-        /*_timer += Time.deltaTime;
+        Timer += Time.deltaTime;
 
-        if (_timer >= ESpawn && SpawnComplete == false)
+        if (Timer >= ESpawn && SpawnComplete == false)
         {
             if (E.activeSelf == true)
             {
@@ -129,7 +129,7 @@ public class LevelMan : MonoBehaviour
             E.SetActive(!E.activeInHierarchy);
             SpawnComplete = true;
         }
-        if (_timer >= E1Spawn && Spawn1Complete == false)
+        if (Timer >= E1Spawn && Spawn1Complete == false)
         {
             if (E1.activeSelf == true)
             {
@@ -138,7 +138,7 @@ public class LevelMan : MonoBehaviour
             E1.SetActive(!E1.activeInHierarchy);
             Spawn1Complete = true;
         }
-        if (_timer >= E2Spawn && Spawn2Complete == false)
+        if (Timer >= E2Spawn && Spawn2Complete == false)
         {
             if (E2.activeSelf == true)
             {
@@ -147,7 +147,7 @@ public class LevelMan : MonoBehaviour
             E2.SetActive(!E2.activeInHierarchy);
             Spawn2Complete = true;
         }
-        if (_timer >= E3Spawn && Spawn3Complete == false)
+        if (Timer >= E3Spawn && Spawn3Complete == false)
         {
             if (E3.activeSelf == true)
             {
@@ -156,7 +156,7 @@ public class LevelMan : MonoBehaviour
             E3.SetActive(!E3.activeInHierarchy);
             Spawn3Complete = true;
         }
-        if (_timer >= E4Spawn && Spawn4Complete == false)
+        if (Timer >= E4Spawn && Spawn4Complete == false)
         {
             if (E4.activeSelf == true)
             {
@@ -165,7 +165,7 @@ public class LevelMan : MonoBehaviour
             E4.SetActive(!E4.activeInHierarchy);
             Spawn4Complete = true;
         }
-        if (_timer >= E5Spawn && Spawn5Complete == false)
+        if (Timer >= E5Spawn && Spawn5Complete == false)
         {
             if (E5.activeSelf == true)
             {
@@ -174,7 +174,7 @@ public class LevelMan : MonoBehaviour
             E5.SetActive(!E5.activeInHierarchy);
             Spawn5Complete = true;
         }
-        if (_timer >= E6Spawn && Spawn6Complete == false)
+        if (Timer >= E6Spawn && Spawn6Complete == false)
         {
             if (E6.activeSelf == true)
             {
@@ -183,7 +183,7 @@ public class LevelMan : MonoBehaviour
             E6.SetActive(!E6.activeInHierarchy);
             Spawn6Complete = true;
         }
-        if (_timer >= E7Spawn && Spawn7Complete == false)
+        if (Timer >= E7Spawn && Spawn7Complete == false)
         {
             if (E7.activeSelf == true)
             {
@@ -192,7 +192,7 @@ public class LevelMan : MonoBehaviour
             E7.SetActive(!E7.activeInHierarchy);
             Spawn7Complete = true;
         }
-        if (_timer >= E8Spawn && Spawn8Complete == false)
+        if (Timer >= E8Spawn && Spawn8Complete == false)
         {
             if (E8.activeSelf == true)
             {
@@ -201,7 +201,7 @@ public class LevelMan : MonoBehaviour
             E8.SetActive(!E8.activeInHierarchy);
             Spawn8Complete = true;
         }
-        if (_timer >= VSpawn && SpawnVComplete == false)
+        if (Timer >= VSpawn && SpawnVComplete == false)
         {
             if (V.activeSelf == true)
             {
@@ -210,7 +210,7 @@ public class LevelMan : MonoBehaviour
             V.SetActive(!V.activeInHierarchy);
             SpawnVComplete = true;
         }
-        if (_timer >= V1Spawn && SpawnV1Complete == false)
+        if (Timer >= V1Spawn && SpawnV1Complete == false)
         {
             if (V1.activeSelf == true)
             {
@@ -219,7 +219,7 @@ public class LevelMan : MonoBehaviour
             V1.SetActive(!V1.activeInHierarchy);
             SpawnV1Complete = true;
         }
-        if (_timer >= V2Spawn && SpawnV2Complete == false)
+        if (Timer >= V2Spawn && SpawnV2Complete == false)
         {
             if (V2.activeSelf == true)
             {
@@ -228,7 +228,7 @@ public class LevelMan : MonoBehaviour
             V2.SetActive(!V2.activeInHierarchy);
             SpawnV2Complete = true;
         }
-        */
+        
     }
 
 
@@ -279,7 +279,7 @@ public class LevelMan : MonoBehaviour
     private void SetGameOver()
     {
         IsOver = true;
-        OnGameOver();
+        //OnGameOver();
 
          _goPanel.SetActive(true);
     }

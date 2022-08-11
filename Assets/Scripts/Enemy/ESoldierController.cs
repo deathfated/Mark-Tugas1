@@ -2,17 +2,39 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ESoldierController : EnemyContoller
+namespace Agate.ZombieTapie.Enemy
 {
-    // Start is called before the first frame update
-    void Start()
+    public class ESoldierController : EnemyContoller
     {
-        
-    }
+        public override void OnClicked()
+        {
+            if (Input.GetMouseButtonDown(0))
+            {
+                RaycastHit2D hit = Physics2D.Raycast(Camera.main.ScreenToWorldPoint(Input.mousePosition), Vector2.zero);
 
-    // Update is called once per frame
-    void Update()
-    {
-        
+                if (hit.collider != null && hit.collider.CompareTag("Enemy"))
+                {
+                    PosReset();
+                }
+            }
+        }
+
+        public override void OnEnemy()
+        {
+            LevelMan script = GameObject.FindObjectOfType<LevelMan>();
+            script.ReduceLives(1);
+        }
+
+        public override void OnVillager()
+        {
+            //return;
+        }
+
+        protected override void Update()
+        {
+            OnClicked();
+
+            transform.position += MoveSpeed * Time.deltaTime * -transform.up;
+        }
     }
 }

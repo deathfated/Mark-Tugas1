@@ -2,70 +2,113 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public abstract class EnemyContoller : MonoBehaviour
+namespace Agate.ZombieTapie.Enemy
 {
-    [SerializeField] private int Health = 1;
-    [SerializeField] private bool isEnemy = true;
-    [SerializeField] private float MoveSpeed = 0.5f;
-
-    private int _currentHealth;
-    private Vector2 resetPosition;
-
-    private void OnEnable()
+    public abstract class EnemyContoller : MonoBehaviour, IClick, IEnemyType
     {
-        _currentHealth = Health;
-        resetPosition = new Vector2(gameObject.transform.position.x, gameObject.transform.position.y);
-    }
+        [SerializeField] protected int Health = 1;
+        [SerializeField] protected float MoveSpeed;
+        [SerializeField] protected float ShiftDelay;
 
-    private void Update()
-    {
-        transform.position += -transform.up * MoveSpeed * Time.deltaTime;
-    }
+        private int _currentHealth;
+        private Vector2 resetPosition;
 
-    public void ReduceEnemyHealth(int damage)
-    {
-        _currentHealth -= damage;
-
-        if (_currentHealth <= 0)
+        protected virtual void OnEnable()
         {
-            _currentHealth = 0;
-            gameObject.SetActive(false);
+            _currentHealth = Health;
+            resetPosition = new Vector2(gameObject.transform.position.x, gameObject.transform.position.y);
         }
-    }
 
-    void OnTriggerEnter2D(Collider2D other)
-    {
-            if (other.gameObject.name == "Limit")
+        protected abstract void Update();
+
+
+        protected virtual void ReduceEnemyHealth(int damage)
+        {
+            _currentHealth -= damage;
+
+            if (_currentHealth <= 0)
             {
-                if (isEnemy == true)
-                {
-                    LevelMan script = GameObject.FindObjectOfType<LevelMan>();
-                    script.ReduceLives(1);
-                }
+                _currentHealth = 0;
+                gameObject.SetActive(false);
+            }
+        }
+
+        /*protected virtual void CheckBounds()
+        {
+            if(gameObject.transform.position.y <= -5)
+            {
+                OnEnemy();
 
                 gameObject.transform.position = resetPosition;
                 gameObject.SetActive(false);
 
-                Invoke("Activate", 10.0f);
+                Invoke(nameof(Activate), 10.0f);
             }
-    }
+        }*/
 
-    public void Activate()
-    {
-        gameObject.SetActive(true);
-    }
-
-    public void OnMouseDown()
-    {
-        if (isEnemy == false)
+        protected virtual void OnTriggerEnter2D(Collider2D other)
         {
-            LevelMan script = GameObject.FindObjectOfType<LevelMan>();
-            script.ReduceLives(5);
+            if (other.gameObject.name == "Limit")
+            {
+                OnEnemy();
+
+                gameObject.transform.position = resetPosition;
+                gameObject.SetActive(false);
+
+                Invoke(nameof(Activate), 10.0f);
+            }
         }
-        gameObject.transform.position = resetPosition;
-        gameObject.SetActive(false);
 
-        Invoke("Activate", 10.0f);
+        /*protected virtual void OnTriggerEnter2D(Collider2D other);
+        {
+                if (other.gameObject.name == "Limit")
+                {
+                    if (isEnemy == true)
+                    {
+                        LevelMan script = GameObject.FindObjectOfType<LevelMan>();
+                        script.ReduceLives(1);
+                    }
+
+                    gameObject.transform.position = resetPosition;
+                    gameObject.SetActive(false);
+
+                    Invoke("Activate", 10.0f);
+                }
+        }*/
+
+        public abstract void OnEnemy();
+        public abstract void OnVillager();
+        public abstract void OnClicked();
+
+        protected virtual void PosReset()
+        {
+            gameObject.transform.position = resetPosition;
+            gameObject.SetActive(false);
+
+            Invoke(nameof(Activate), 10.0f);
+        }
+
+        protected virtual void Activate()
+        {
+            gameObject.SetActive(true);
+        }
+
+        /*protected virtual void OnMouseDown()
+        {
+            if (isEnemy == false)
+            {
+                LevelMan script = GameObject.FindObjectOfType<LevelMan>();
+                script.ReduceLives(5);
+            }
+
+            OnClicked();
+
+            OnVillager();
+
+            gameObject.transform.position = resetPosition;
+            gameObject.SetActive(false);
+
+            Invoke("Activate", 10.0f);
+        }*/
     }
-
 }

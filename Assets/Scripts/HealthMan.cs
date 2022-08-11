@@ -5,11 +5,11 @@ using UnityEngine;
 public class HealthMan : MonoBehaviour
 {
 
-    public GameObject h1;
-    public GameObject h2;
-    public GameObject h3;
-    public GameObject h4;
-    public GameObject h5;
+    [SerializeField] private GameObject h1;
+    [SerializeField] private GameObject h2;
+    [SerializeField] private GameObject h3;
+    [SerializeField] private GameObject h4;
+    [SerializeField] private GameObject h5;
 
     public void ChangeHealth(int health)
     {
